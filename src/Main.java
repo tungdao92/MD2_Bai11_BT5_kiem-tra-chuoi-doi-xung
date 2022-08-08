@@ -19,7 +19,7 @@ public class Main {
             mWord1 += wStack.pop();
         }
         System.out.println(mWord1);
-        if (mWord.equals(mWord1)){
+        if (mWord.toLowerCase().equals(mWord1.toLowerCase())){
             System.out.println("Đây là chuỗi đối xứng");
         } else {
             System.out.println("Đây là chuỗi không đối xứng");
